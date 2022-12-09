@@ -16,6 +16,7 @@
     "@types/snowpack-env": "^2.3.3",
     "chai": "^4.3.7",
     "firebase": "^9.14.0",
+    "mocha": "^10.1.0",
     "prettier": "^2.2.1",
     "snowpack": "^3.3.7",
     "ts-mocha": "^10.0.0",
