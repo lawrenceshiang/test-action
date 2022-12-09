@@ -1,23 +1,18 @@
 {
-  "name": "devops",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "build": "webpack src/app.js -o public/bundle.js",
-    "deploy": "firebase deploy --token \"$FIREBASE_TOKEN\" --only hosting"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "jest": "^25.1.0",
-    "webpack": "^4.42.0",
-    "webpack-cli": "^3.3.11"
+    "start": "snowpack dev",
+    "build": "snowpack build"
   },
   "dependencies": {
-    "firebase-tools": "^7.14.0",
-    "terser": "^4.6.6"
+    "canvas-confetti": "^1.2.0"
+  },
+  "devDependencies": {
+    "@snowpack/plugin-typescript": "^1.2.1",
+    "@types/canvas-confetti": "^1.0.0",
+    "@types/snowpack-env": "^2.3.3",
+    "firebase": "^9.14.0",
+    "prettier": "^2.2.1",
+    "snowpack": "^3.3.7",
+    "typescript": "^4.9.3"
   }
 }
